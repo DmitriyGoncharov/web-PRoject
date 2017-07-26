@@ -1,0 +1,40 @@
+.hromSlider {
+	display: block;
+	position: relative;
+}
+.hromSlider .static {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.hromSlider .static .elements {
+	position: relative;
+    width: 99999px;
+}
+.hromSlider .static .elements .item {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+.hromSlider .nav {
+	display: block;
+	height: 16px;
+	text-align: center;
+	padding-top: 10px;
+}
+.hromSlider .nav a {
+	display: block;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 0 3px;
+	background: #ccc;
+	display: inline-block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.hromSlider .nav a.active {
+	background: #888;
+}

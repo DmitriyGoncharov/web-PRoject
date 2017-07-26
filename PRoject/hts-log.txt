@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 27 Jul 2017 00:29:15 at http://www.russvad.ru/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "ru, en, *" http://www.russvad.ru/ -O1 "D:\Web\PRoject" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:29:15	Warning: 	Note: due to www.russvad.ru remote robots.txt rules, links beginning with these path will be forbidden: /search (see in the options to disable this)
+00:36:28	Error: 	"Not Found" (404) at link www.russvad.ru/GET (from www.russvad.ru/assets/tpl/js/less-1.3.1.min.js)
+00:36:28	Error: 	"Not Found" (404) at link www.russvad.ru/r,this.paths (from www.russvad.ru/assets/tpl/js/less-1.3.1.min.js)
+00:49:39	Error: 	"Not Found" (404) at link www.russvad.ru/images/test/20131212-151135.jpg (from www.russvad.ru/journal/semejnyie-klubyi/)
+00:49:39	Error: 	"Not Found" (404) at link www.russvad.ru/images/1-(1).jpg (from www.russvad.ru/journal/limuzinyi-v-2015-godu/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 20 minutes 29 seconds : 1292 links scanned, 1287 files written (31435822 bytes overall) [30357025 bytes received at 24700 bytes/sec], 2330642 bytes transferred using HTTP compression in 197 files, ratio 33%, 51.6 requests per connection
+(4 errors, 1 warnings, 0 messages)
